@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APEX - Biblioteca UI</title>
+    <link rel="icon" href="imagenes/LOGO 2.jpg" type="image/png">
+    <link rel="stylesheet" href="uxui.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet"
+        />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cca7e51b2f.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+ </head>
+  <body>
+    <!-- Header -->
+    <div class="hero-wrapper">
+      <header class="main-header">
+        <div class="logo">
+          <img src="imagenes/LOGO 1 png.png" alt="APEX">
+        </div>
+        <button class="menu-toggle">
+            <span></span>
+            <span></span>
+        </button>
+        <!-- navbar -->
+        <nav class="nav">
+            <a href="index.html">Home</a>
+               <a href="#marca">Marca</a>
+            <a href="#colores">Colores</a>
+            <a href="#tipografia">Tipografía</a>
+            <a href="#boton">Botones</a>
+            <a href="#cards">Cards</a>
+            <a href="#input">Input</a>
+        </nav>
+        <a href="index2.html" class="btn-primary">
+        Detalle
+        </a>
+        <button class="menu-toggle" id="menuToggle">
+        <i class="fa-solid fa-bars"></i>
+        </button>
+      </header>
+
+
+      <!-- HERO -->
+
+      <header class="hero">
+
+          <div class="hero-content">
+
+              <h1>
+                  APEX
+                  <br>
+                  <span class="destacado-hero">BIBLIOTECA UI</span>
+              </h1>
+
+          </div>
+
+      </header>
+
+    <!-- MARCA -->
+
+    <section class="brand-section" id="marca">
+
+        <div class="brand-container">
+
+            <div class="section-header">
+
+                <h2>
+                    MARCA
+                </h2>
+
+            </div>
+
+
+            <div class="brand-grid">
+
+
+                <!-- MARCA PRINCIPAL -->
+
+                <div class="brand-card">
+
+                    <div class="brand-preview">
+
+                        <img src="imagenes/LOGO 1 png.png" alt="APEX logo principal">
+
+                    </div>
+
+
+                    <div class="brand-info">
+
+                        <h3>
+                            MARCA PRINCIPAL
+                        </h3>
+
+                        <p>
+                            Versión completa del logotipo para aplicaciones generales.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- MARCA REDUCIDA -->
+
+                <div class="brand-card">
+
+                    <div class="brand-preview">
+
+                        <img src="imagenes/LOGO 2.jpg" alt="APEX marca reducida">
+
+                    </div>
+
+
+                    <div class="brand-info">
+
+                        <h3>
+                            MARCA REDUCIDA
+                        </h3>
+
+                        <p>
+                            Símbolo compacto para espacios pequeños, iconos y navegación.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- COLORES -->
+
+    <section class="colors-section" id="colores">
+
+        <div class="colors-container">
+
+
+            <div class="section-header">
+
+                <h2>
+                    COLORES
+                </h2>
+
+            </div>
+
+
+            <div class="colors-grid">
+
+
+                <!-- VERDES -->
+
+                <div class="color-row">
+
+                    <div class="color-card">
+
+                        <div class="color-preview primary-color"></div>
+
+                        <div class="color-info">
+
+                            <h3>
+                                #BBEF1F
+                            </h3>
+
+                            <p>
+                                Color principal de identidad utilizado en destacados, botones y elementos de acción.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="color-card">
+
+                        <div class="color-preview primary-dark-color"></div>
+
+                        <div class="color-info">
+
+                            <h3>
+                                #334200
+                            </h3>
+
+                            <p>
+                                Variante oscura de #BBEF1F utilizada para estados inactivos.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- NEGROS -->
+
+                <div class="color-row">
+
+                    <div class="color-card">
+
+                        <div class="color-preview dark-color"></div>
+
+                        <div class="color-info">
+
+                            <h3>
+                                #0D0D0D
+                            </h3>
+
+                            <p>
+                                Fondo principal de la interfaz, también utilizado en texto, destacados y botones.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="color-card">
+
+                        <div class="color-preview card-color"></div>
+
+                        <div class="color-info">
+
+                            <h3>
+                                #1A1717
+                            </h3>
+
+                            <p>
+                                Variante de #0D0D0D utilizada en cards estáticas que no tienen interacción.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="color-card">
+
+                        <div class="color-preview popup-color"></div>
+
+                        <div class="color-info">
+
+                            <h3>
+                                RGBA(26,23,23,.9)
+                            </h3>
+
+                            <p>
+                                Variante de #0D0D0D con transparencia, utilizada para popups y elementos superpuestos.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- CLAROS -->
+
+                <div class="color-row">
+
+                    <div class="color-card">
+
+                        <div class="color-preview light-color"></div>
+
+                        <div class="color-info">
+
+                            <h3>
+                                #EFF8FF
+                            </h3>
+
+                            <p>
+                                Color principal para texto, fondo y elementos activos.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="color-card">
+
+                        <div class="color-preview light-link-color"></div>
+
+                        <div class="color-info">
+
+                            <h3>
+                                RGBA(239,248,255,.6)
+                            </h3>
+
+                            <p>
+                                Variante de #EFF8FF utilizado para links sin hover y textos secundarios.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="color-card">
+
+                        <div class="color-preview disabled-color"></div>
+
+                        <div class="color-info">
+
+                            <h3>
+                                RGBA(255,255,255,.6)
+                            </h3>
+
+                            <p>
+                                Variante de #EFF8FF para elementos inactivos.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+    </section>
+        
+    <!-- TIPOGRAFÍA -->
+
+    <section class="type-section" id="tipografia">
+
+        <div class="type-container">
+
+
+            <div class="section-header">
+
+                <h2>
+                    TIPOGRAFÍA
+                </h2>
+
+            </div>
+
+
+
+            <div class="type-list">
+
+
+
+                <!-- H1 HERO -->
+
+                <div class="type-item">
+
+                    <span>
+                        Host Grotesk - Desktop 110px - Mobile 55px  - Peso Bold
+                    </span>
+
+                    <h1 class="type-h1-hero">
+                        H1 - TÍTULO HERO
+                    </h1>
+
+                </div>
+
+
+
+                <!-- H2 PRINCIPAL -->
+
+                <div class="type-item">
+
+                    <span>
+                        Host Grotesk - Desktop 80px - Mobile 52px - Peso Bold
+                    </span>
+
+                    <h2 class="type-h2-main">
+                        H2 - TÍTULO PRINCIPAL
+                    </h2>
+
+                </div>
+
+
+
+                <!-- H3 SECUNDARIO -->
+
+                <div class="type-item">
+
+                    <span>
+                        Host Grotesk - Tamaño 4rem - Mobile 52px - Peso Bold
+                    </span>
+
+                    <h3 class="type-h3-secondary">
+                        H3 - TITULO SECUNDARIO
+                    </h3>
+
+                </div>
+
+
+
+                <!-- H4 TERCIARIO -->
+
+                <div class="type-item">
+
+                    <span>
+                        Host Grotesk - Desktop .95rem - Mobile 1rem - Peso 700
+                    </span>
+
+                    <h4 class="type-h4-tertiary">
+                        H4 - TITULO TERCIARIO
+                    </h4>
+
+                </div>
+
+
+
+                <!-- TEXTO -->
+
+                <div class="type-item">
+
+                    <span>
+                        Inter - Desktop 16px - Mobile 17px
+                    </span>
+
+                    <p class="type-body">
+                        Texto utilizado para párrafos extensos, descripciones y contenido general. Diseñado para facilitar la lectura continua manteniendo claridad, ritmo y legibilidad en diferentes tamaños de pantalla.
+                    </p>
+
+                </div>
+
+
+
+                <!-- DESTACADO GRANDE -->
+
+                <div class="type-item">
+
+                    <span>
+                        Host Grotesk - Itálica - Desktop 80px - Mobile 55px - Bold
+                    </span>
+
+                    <h2 class="type-highlight-large">
+                        TÍTULO DESTACADO
+                    </h2>
+
+                </div>
+
+
+
+                <!-- DESTACADO PEQUEÑO -->
+
+                <div class="type-item">
+
+                    <span>
+                        Host Grotesk - Itálica - Desktop y Mobile 1.1rem - Peso 500
+                    </span>
+
+                    <h2 class="type-highlight-small">
+                        Destacado
+                    </h2>
+
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- BOTONES -->
+
+    <section class="buttons-section" id="boton">
+
+        <div class="buttons-container">
+
+
+            <div class="section-header">
+
+                <h2>
+                    BOTONES
+                </h2>
+
+            </div>
+
+
+
+            <div class="buttons-list">
+
+
+                <!-- BOTÓN PRINCIPAL -->
+
+                <div class="button-item">
+
+                    <div class="button-preview">
+
+                        <a href="#" class="btn-primary">
+                            Botón principal
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- BOTÓN ALTERNATIVO -->
+                <div class="button-item">
+
+                    <div class="button-preview button-light">
+
+                        <div class="elite-price-box">
+
+                            <a href="#" class="btn-primary">
+                                Botón alternativo
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+        CARDS APEX
+    ========================= -->
+
+    <section class="cards-section" id="cards">
+
+
+            <div class="section-header">
+
+                <h2>
+                    CARDS / CARDS INTERACTIVAS
+                </h2>
+
+            </div>
+
+            <section id="rendimiento" class="performance-section">
+
+                <div class="performance-features">
+
+                    <article class="feature-card">
+
+                    <i class="fa-solid fa-chart-simple feature-icon"></i>
+
+                        <h3>CARD INFORMATIVA 1</h3>
+
+                        <p>
+                            Esta es una card informativa sin animación.
+                        </p>
+
+                    </article>
+
+                    <article class="feature-card">
+
+                        <i class="fa-solid fa-headset feature-icon"></i>
+
+                        <h3>CARD INFORMATIVA 2</h3>
+
+                        <p>
+                            Esta es una card informativa sin animación.
+                        </p>
+
+                    </article>
+
+                    <article class="feature-card">
+
+                        <i class="fa-solid fa-gear feature-icon"></i>
+
+                        <h3>CARD INFORMATIVA 3</h3>
+
+                        <p>
+                            Esta es una card informativa sin animación.
+                        </p>
+
+                    </article>
+
+                    <article class="feature-card">
+
+                        <i class="fa-solid fa-arrow-trend-up feature-icon"></i>
+
+                        <h3>CARD INFORMATIVA 4</h3>
+                        <p>
+                            Esta es una card informativa sin animación.
+                        </p>
+                    </article>
+                </div>
+
+            </section> 
+
+
+                  <section class="simulators-section" >
+
+                    <div class="simulators-grid">
+                        
+                    <article class="sim-card">
+
+                        <img
+                            class="sim-image"
+                            src="imagenes/formula sim.jpg"
+                            alt="Simulador Fórmula"
+                        >
+
+                        <video class="sim-video" muted playsinline loop>
+                            <source src="imagenes/formula 2.mp4" type="video/mp4">
+                        </video>
+
+                        <div class="sim-card-content">
+                            <span class="sim-category">Cards expandibles</span>
+                            <h3 class="sim-name">Card expandible 1</h3>
+                        </div>
+
+                    </article>
+
+                        <article class="sim-card">
+                            <img
+                                class="sim-image"
+                                src="imagenes/motion sim 2.jpg"
+                                alt="Simulador Fórmula"
+                            >
+                            <video class="sim-video" muted playsinline loop>
+                            <source src="imagenes/motion 2.mp4" type="video/mp4">
+                            </video>
+
+                            <div class="sim-card-content">
+                                <span class="sim-category">Cards expandibles</span>
+                                <h3 class="sim-name">Card expandible 2</h3>
+                            </div>
+                        </article>
+
+                        <article class="sim-card">
+                            <img
+                            class="sim-image"
+                            src="imagenes/vr sim 2.jpg"
+                            alt="Simulador Fórmula"
+                            >
+                            <video class="sim-video" muted playsinline loop>
+                            <source src="imagenes/vr.mp4" type="video/mp4">
+                            </video>
+                            <div class="sim-card-content">
+                                <span class="sim-category">Cards expandibles</span>
+                                <h3 class="sim-name">Card expandible 3</h3>
+                            </div>
+                        </article>
+
+                    </div>
+                </section>
+
+                   <!-- CURSOS -->
+
+        <section class="courses-section" id="cursos">
+
+            <div class="courses-grid">
+                
+                <article class="course-card starter">
+                    <span class="course-badge">Pricing Card 1</span>
+                    <div class="course-price">$XXX.XXX <span>x mes</span></div>
+                    <p class="course-description desktop">
+                        Aprendé los fundamentos del simracing, las técnicas básicas de trazado, frenado y control del vehículo profesional.
+                    </p>
+
+                    <p class="course-description mobile">
+                        Aprendé los fundamentos del simracing, el trazado ideal y el control del vehículo.
+                    </p>
+                    <div class="course-features">
+                        <div class="feature-item checked"><span class="icon">✓</span> 8 Sesiones</div>
+                        <div class="feature-item unchecked"><span class="icon">✕</span> Comparativas</div>
+                        <div class="feature-item checked"><span class="icon">✓</span> Coaching 1 a 1</div>
+                        <div class="feature-item unchecked"><span class="icon">✕</span> Simulador VR</div>
+                        <div class="feature-item checked"><span class="icon">✓</span> Reporte avanzado</div>
+                        <div class="feature-item unchecked"><span class="icon">✕</span> Estrategia personal</div>
+                    </div>
+                    <a href="index2.html" class="btn-primary course-btn">
+                        Ver curso
+                    </a>
+                </article>
+                
+                <article class="course-card elite">
+
+                    <div class="course-popular">
+                        MÁS ELEGIDO
+                    </div>
+
+                    <span class="course-badge">Pricing Card Destacada</span>
+
+                    <div class="course-price">
+                        $XXX.XXX <span>x mes</span>
+                    </div>
+
+                    <p class="course-description desktop">
+                        Programa avanzado para llevar tu nivel al máximo. Combina entrenamiento intensivo y preparación competitiva.
+                    </p>
+
+                    <p class="course-description mobile">
+                        Programa avanzado con entrenamiento intensivo y preparación competitiva.
+                    </p>
+
+                    <div class="course-features">
+                        <div class="feature-item checked"><span class="icon">✓</span> 18 Sesiones</div>
+                        <div class="feature-item checked"><span class="icon">✓</span> Comparativas</div>
+                        <div class="feature-item checked"><span class="icon">✓</span> Coaching 1 a 1</div>
+                        <div class="feature-item checked"><span class="icon">✓</span> Simulador VR</div>
+                        <div class="feature-item checked"><span class="icon">✓</span> Reporte avanzado</div>
+                        <div class="feature-item checked"><span class="icon">✓</span> Estrategia personal</div>
+                    </div>
+
+                    <a href="index2.html" class="btn-primary course-btn">
+                        Ver curso
+                    </a>
+
+                </article>
+
+                <article class="course-card performance">
+
+                    <span class="course-badge">Pricing Card 2</span>
+
+                    <div class="course-price">
+                        $XXX.XXX <span>x mes</span>
+                    </div>
+
+                    <p class="course-description desktop">
+                        Mejorá tu consistencia y velocidad al colocar el foco en la toma de decisiones, la precisión y el análisis de cada sesión.
+                    </p>
+
+                    <p class="course-description mobile">
+                        Mejorá tu consistencia y velocidad al trabajar con análisis y precisión.
+                    </p>
+
+                    <a href="index2.html" class="btn-primary course-btn">
+                        Ver curso
+                    </a>
+
+                </article>
+            </div>
+
+        </section>
+
+    </section>
+    
+   <!-- =========================
+        CARDS APEX
+    ========================= -->
+
+    <section class="cards-section dou-section" id="input">
+
+
+            <div class="section-header">
+
+                <h2>
+                    INPUT
+                </h2>
+
+            </div>
+
+        <!-- CONTACTO -->
+
+            <section class="contact-section" id="contacto">
+
+                <form class="contact-form">
+                    <div class="form-grid">
+                        <input type="text" placeholder="Nombre *" required>
+                        <input type="text" placeholder="Apellido *" required>
+                        <input type="email" placeholder="Email *" required>
+                        <input type="tel" placeholder="Celular *" required>
+                    </div>
+                    
+                    <textarea placeholder="Consulta *" required></textarea>
+                    
+                    <button class="btn-primary">Enviar</button>
+                </form>
+            </section>
+
+    </section>
+
+        <!-- footer -->
+
+    <footer class="main-footer">
+      <div class="footer-top">
+        <div class="footer-brand">
+              <img src="imagenes/LOGO 1 png.png" alt="APEX Simracing Academy" class="footer-logo">
+          <p>
+            Apex Simracing Academy - Formación profesional de pilotos a través de telemetría y técnica.
+          </p>
+        </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 APEX - Natalia Agostina Torres - DG3 Belluccia Comisión 2</p>
+      </div>
+    </footer>
+
+   <script src="prueba.js"></script>
+</body>
+</html>
